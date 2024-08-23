@@ -1,10 +1,10 @@
 {
   "name": "socialmedia-project",
   "version": "1.0.0",
-  "main": "backennd/app.js",
+  "main": "backennd/server.js",
   "scripts": {
-    "dev":"nodemon backend/app.js",
-    "start": "node backend/app.js"
+    "dev":"nodemon backend/server.js",
+    "start": "node backend/server.js"
   },
   "keywords": [],
   "author": "",
