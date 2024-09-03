@@ -20,7 +20,7 @@ const RightPanel = () => {
 							<RightPanelSkeleton />
 							<RightPanelSkeleton />
 						</>
-					)}
+					)}    
 					{!isLoading &&
 						USERS_FOR_RIGHT_PANEL?.map((user) => (
 							<Link
