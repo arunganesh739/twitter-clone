@@ -37,7 +37,7 @@ const LoginPage = () => {
 		},
 		onSuccess: () => {
 			toast.success("Login successful!");
-			queryClient.invalidateQueries({ queryKey: ["authUser"] });
+			queryClient.invalidateQueries({ queryKey: ["authUser"] }); 
 		},
 		onError: (error) => {
 			toast.error(error.message || "Login failed");
