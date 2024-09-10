@@ -34,4 +34,4 @@ const useFollow = () => {
 	return { follow, isPending };
 };
 
-export default useFollow;
+export default useFollow; 
